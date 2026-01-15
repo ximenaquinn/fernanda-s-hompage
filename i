@@ -15,6 +15,7 @@ to learn about the channel deathalpha
     lava, fernanda, and more. here is a link to his channel: https://www.youtube.com/@DJDEATHALPHA
     he is a really good gamer and a funny person to watch his streams. please check out his channnel. please subscribe
     and like.
+    and like. he would really appreciate it. thank you for reading this.
 </body>
 
 </html>
