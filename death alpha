@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>death alpha</title>
+    <style>
+        :root {
+            --bg: #0b0f14;
+            --accent: #ff4d6d;
+            --muted: #9aa4ad
+        }
+
+        * {
+            box-sizing: border-box
+        }
+
+        html,
+        body {
+            height: 100%
+        }
+
+        body {
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(180deg, #071018 0%, #0b0f14 60%);
+            color: var(--muted);
+            font-family: Inter, system-ui, Segoe UI, Roboto, "Helvetica Neue", Arial;
+        }
+
+        .container {
+            text-align: center;
+            padding: 48px;
+            max-width: 720px;
+        }
+
+        .logo {
+            font-weight: 800;
+            font-size: 7rem;
+            line-height: 1;
+            color: var(--accent);
+            margin: 0 0 12px;
+            text-shadow: 0 6px 24px rgba(0, 0, 0, .6);
+        }
+
+        h2 {
+            margin: 0 0 18px;
+            font-weight: 600;
+            color: #e6eef7
+        }
+
+        p {
+            margin: 0 0 24px;
+            color: var(--muted);
+        }
+
+        a.button {
+            display: inline-block;
+            padding: 10px 16px;
+            background: transparent;
+            border: 1px solid rgba(230, 238, 247, .12);
+            color: #e6eef7;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: 600;
+        }
+
+        .small {
+            font-size: .9rem;
+            color: rgba(230, 238, 247, .6)
+        }
+
+        @media (max-width:520px) {
+            .logo {
+                font-size: 5rem
+            }
+
+            .container {
+                padding: 28px
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <main class="container" role="main" aria-labelledby="main-title">
+        <div class="logo" aria-hidden="true">!</div>
+        <h2 id="main-title">death alpha</h2>
+        <p class="small">A minimal, single-file starting point for a homepage. Edit this file to add your content.</p>
+        <p><a class="button" href="mailto:you@example.com">Contact</a></p>
+    </main>
+</body>
+
+</html>
