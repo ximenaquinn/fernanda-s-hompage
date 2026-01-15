@@ -14,7 +14,7 @@ to learn about the channel deathalpha
     fortnite. he is very imersive with his audience and does live streams of his games. he introduce his friends cat,
     lava, fernanda, and more. here is a link to his channel: https://www.youtube.com/@DJDEATHALPHA
     he is a really good gamer and a funny person to watch his streams. please check out his channnel. please subscribe
-    and like
+    and like.
 </body>
 
 </html>
