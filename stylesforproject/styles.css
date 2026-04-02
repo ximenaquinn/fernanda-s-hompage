@@ -1,0 +1,224 @@
+html {
+    background-color: #f956a2
+}
+
+
+#page-title {
+
+
+    color: rgb(99, 4, 56);
+    font-family: fantasy;
+    font-size: 40px;
+}
+
+
+.card {
+    border: 2px solid #64060e;
+    width: 260px;
+    height: 180px;
+    padding: 12px;
+    margin: 10px;
+    color: rgb(171, 3, 112);
+    font-family: fantasy;
+    background: #ffa3f0;
+    box-sizing: border-box
+}
+
+
+.highlight {
+    border: 2px solid rgb(141, 4, 68);
+    background-color: rgb(183, 86, 183);
+    color: rgb(171, 3, 112);
+    font-family: fantasy;
+    width: 260px;
+    height: 140px;
+    padding: 12px;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    margin: 0;
+}
+
+
+.container1 {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    background: rgb(23, 238, 188);
+    height: 100%;
+    gap: 10px;
+}
+
+
+.right1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 50%;
+    gap: 10px;
+}
+
+
+.right-item1 {
+    width: 50%;
+    height: 50%;
+    background: rgb(251, 114, 191);
+    text-decoration-color: rgb(100, 3, 5);
+    text-decoration-style: fantasy;
+
+
+}
+
+
+.left1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 50%;
+    gap: 10px;
+}
+
+
+.left-item1 {
+    width: 50%;
+    height: 50%;
+    background: rgb(211, 198, 14);
+    text-decoration-color: rgb(100, 3, 5);
+    text-decoration-style: fantasy;
+}
+
+.toptenflowers {
+    position: absolute;
+    bottom: 0mm;
+    right: 1100px;
+    flex: 50%;
+}
+
+.body {
+    margin: 1000 px;
+
+    background-image: url(images/forest.webp);
+
+}
+
+.violets {
+    position: absolute;
+    bottom: 40mm;
+    right: 600px;
+
+}
+
+.rose {
+    position: absolute;
+    bottom: 50mm;
+    right: 600px;
+}
+
+.pansies {
+    position: absolute;
+    bottom: 40mm;
+    right: 950px;
+
+}
+
+.nightshade {
+    position: absolute;
+    bottom: 40mm;
+    right: 750px;
+
+}
+
+.lavander {
+    position: absolute;
+    bottom: 40mm;
+    right: 200px;
+
+}
+
+.logo {
+    position: absolute;
+    bottom: 0mm;
+    right: 1100px;
+    flex: 50%;
+}
+
+.morningglories {
+    position: absolute;
+    bottom: 90mm;
+    right: 455px;
+
+}
+
+
+.main-container {
+    background: rgb(4, 92, 73);
+    width: 100vw;
+    height: 20vh;
+    position: absolute;
+    bottom: 0mm;
+}
+
+.words {
+    color: rgb(255, 250, 250);
+    font-size: x-large;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+
+.left {
+    display: flex;
+    height: 100%;
+    width: 50%;
+    border: 2px solid rgb(141, 3, 40);
+    background-color: rgb(255, 3, 129);
+    align-items: center;
+    justify-content: center;
+
+}
+
+.right {
+    display: flex;
+    height: 100%;
+    width: 50%;
+    gap: 10px;
+    background: #d91e7f;
+    border: 2px solid rgb(141, 3, 40);
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    background: rgb(191, 147, 218);
+    height: 50vh;
+    gap: 10px;
+}
+
+a:link {
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(101, 0, 49);
+    background-color: transparent;
+    text-decoration: underline;
+}
