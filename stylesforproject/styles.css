@@ -14,7 +14,7 @@ html {
 
 .card {
     border: 2px solid #64060e;
-    width: 260px;
+    width: 500px;
     height: 180px;
     padding: 12px;
     margin: 10px;
@@ -30,11 +30,12 @@ html {
     background-color: rgb(183, 86, 183);
     color: rgb(171, 3, 112);
     font-family: fantasy;
-    width: 260px;
+    width: 500px;
     height: 140px;
     padding: 12px;
     margin: 10px;
     box-sizing: border-box;
+    top: 10;
 }
 
 * {
@@ -117,7 +118,7 @@ body {
 
 .rose {
     position: absolute;
-    bottom: 50mm;
+    bottom: 40mm;
     right: 600px;
 }
 
