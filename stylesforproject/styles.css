@@ -49,11 +49,12 @@ body {
 
 
 .container1 {
-    padding: 10px;
+    padding: 100px;
     display: flex;
     flex-direction: row;
     background: rgb(23, 238, 188);
     height: 100%;
+    width: 100%;
     gap: 10px;
 }
 
@@ -90,7 +91,7 @@ body {
 .left-item1 {
     width: 50%;
     height: 50%;
-    background: rgb(211, 198, 14);
+    background: rgb(178, 14, 211);
     text-decoration-color: rgb(100, 3, 5);
     text-decoration-style: fantasy;
 }
