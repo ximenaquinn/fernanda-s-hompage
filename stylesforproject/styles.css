@@ -11,6 +11,17 @@ html {
     font-size: 40px;
 }
 
+.game {
+    position: absolute;
+    bottom: 10mm;
+    right: 70px;
+}
+
+.hi {
+    position: absolute;
+    bottom: 10mm;
+    right: 455px;
+}
 
 .card {
     border: 2px solid #64060e;
@@ -49,7 +60,7 @@ body {
 
 
 .container1 {
-    padding: 100px;
+    padding: 80px;
     display: flex;
     flex-direction: row;
     background: rgb(23, 238, 188);
@@ -64,7 +75,8 @@ body {
     flex-direction: row;
     justify-content: space-between;
     height: 50%;
-    gap: 10px;
+    gap: 50px;
+    align-self: top;
 }
 
 
@@ -83,8 +95,8 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    height: 50%;
     gap: 10px;
+    align-self: center;
 }
 
 
@@ -158,6 +170,12 @@ body {
 
 }
 
+.active {
+    background: rgb(213, 178, 3);
+    font-size: 150%;
+    width: 500px;
+    height: 100px;
+}
 
 .main-container {
     background: rgb(4, 92, 73);
@@ -184,6 +202,7 @@ body {
     background-color: rgb(255, 3, 129);
     align-items: center;
     justify-content: center;
+    font-size: xx-large;
 
 }
 
@@ -196,7 +215,24 @@ body {
     border: 2px solid rgb(141, 3, 40);
     align-items: center;
     justify-content: center;
+    font-size: xx-large;
 }
+
+.questions {
+    position: absolute;
+    bottom: 110mm;
+    right: 450px;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+}
+
+.family {
+    position: absolute;
+    bottom: 90mm;
+    right: 70px;
+}
+
 
 .container {
     padding: 10px;
