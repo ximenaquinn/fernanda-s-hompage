@@ -17,6 +17,12 @@ html {
     right: 70px;
 }
 
+.mom {
+    position: absolute;
+    bottom: 10mm;
+    right: 100px;
+}
+
 .hi {
     position: absolute;
     bottom: 10mm;
