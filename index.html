@@ -1,7 +1,7 @@
 <html>
 
 <head>
-    <link rel="icon" type="image/x-icon" href="rosescopy.jpg">
+    <link rel="icon" type="image/png" href="imagesforproject/roses.jpg" />
 
 </head>
 <title></title>
@@ -20,30 +20,40 @@
     <div class="card"> so all in our lives we have plants all around us and by the looks of things you cant tell how
         that plant can affect you because one touch of some plants or even a smell can posion you.
     </div>
-    <div class="highlight"> if you look at the bottom of this page had apps that will lead you to my games and other
+    <div class="highlight"> if you look at the side of this page had apps that will lead you to my games and other
         pages that show the points of danger plants or just to tell the differences. </div>
-    <img src="imagesforproject/rosescopy.jpg" alt="flowers" width="160" height="160" />
+    <a href="aboutcreator.html">
+        <div class="hi"><img src="imagesforproject/rosescopy.jpg" alt="flowers" width="200" height="200" /></div>
+    </a>
     <a href="toptenflowers.html">
-        </div class="toptenflowers"> <img src="imagesforproject/toptenflowers.png" alt="flowers" width="160"
-            height="160" />
+        <div class="morningglories"> <img src="imagesforproject/toptenflowers.png" alt="flowers" width="200"
+                height="200" />
         </div>
     </a>
 
     <a href="game.html">
-        </div class="toptenflowers"> <img src="imagesforproject/survival.png" alt="flowers" width="160" height="160" />
+        <div class="game"> <img src="imagesforproject/survival.png" alt="flowers" width="200" height="200" />
         </div>
     </a>
 
     <a href="refections.html">
-        </div class="toptenflowers"> <img src="imagesforproject/refection paper.png" alt="flowers" width="160"
-            height="160" />
+        <div class="family"><img src="imagesforproject/refection paper.png" alt="flowers" width="200" height="200" />
         </div>
     </a>
 
 
+    <button onclick="change()">button</button>
+    <div class="menu">easter egg for the game there isn only two wrong answers and click on the flowers. </div>
 
     </p>
 </body>
+<script>
+    function change() {
+        console.log('it works!');
+        document.querySelector(".menu").classList.toggle("active");
+    }
+
+</script>
 
 
 
