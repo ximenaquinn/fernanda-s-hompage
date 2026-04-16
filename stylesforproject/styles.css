@@ -1,32 +1,37 @@
 html {
-    background-color: #f956a2
+    box-sizing: border-box backgroundimage;
+    contain-intrinsic-block-size: (imagesforproject/flow)1000px;
 }
 
 
 #page-title {
 
 
-    color: rgb(99, 4, 56);
+    color: rgb(15, 7, 11);
     font-family: fantasy;
     font-size: 40px;
+    box-sizing: border-box
 }
 
 .game {
     position: absolute;
     bottom: 10mm;
     right: 70px;
+    box-sizing: border-box
 }
 
 .mom {
     position: absolute;
     bottom: 10mm;
     right: 100px;
+    box-sizing: border-box
 }
 
 .hi {
     position: absolute;
     bottom: 10mm;
     right: 455px;
+    box-sizing: border-box
 }
 
 .card {
@@ -38,7 +43,10 @@ html {
     color: rgb(171, 3, 112);
     font-family: fantasy;
     background: #ffa3f0;
-    box-sizing: border-box
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 120px;
+
 }
 
 
@@ -66,100 +74,112 @@ body {
 
 
 .container1 {
-    padding: 80px;
+    padding: 10px;
     display: flex;
     flex-direction: row;
     background: rgb(23, 238, 188);
-    height: 100%;
-    width: 100%;
+    height: 100vh;
     gap: 10px;
+    box-sizing: border-box;
 }
 
 
-.right1 {
+.top {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     height: 50%;
-    gap: 50px;
-    align-self: top;
+    gap: 10px;
+    justify-items: top;
+    box-sizing: border-box;
 }
 
 
-.right-item1 {
+.top-item {
     width: 50%;
     height: 50%;
     background: rgb(251, 114, 191);
     text-decoration-color: rgb(100, 3, 5);
     text-decoration-style: fantasy;
+    box-sizing: border-box;
 
 
 }
 
 
-.left1 {
+.bottom {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    height: 50%;
     gap: 10px;
-    align-self: center;
+    justify-items: bottom;
+    box-sizing: border-box;
 }
 
 
-.left-item1 {
+.bottom-item {
     width: 50%;
     height: 50%;
-    background: rgb(178, 14, 211);
-    text-decoration-color: rgb(100, 3, 5);
-    text-decoration-style: fantasy;
+    background: rgb(211, 198, 14);
+    box-sizing: border-box;
 }
+
+
+
 
 .toptenflowers {
     position: absolute;
     bottom: 0mm;
     right: 1100px;
     flex: 50%;
+    box-sizing: border-box;
 }
 
-.body {
+body {
     margin: 1000 px;
+    background-image: url('imagesforproject/forest.png');
+    box-sizing: border-box;
+}
 
-    background-image: url(images/forest.webp);
-
+indexbackground {
+    margin: 1000 px;
+    background-image: url('imagesforproject/flow.png');
 }
 
 .violets {
     position: absolute;
     bottom: 40mm;
     right: 600px;
-
+    box-sizing: border-box;
 }
 
 .rose {
     position: absolute;
     bottom: 20mm;
     right: 600px;
+    box-sizing: border-box;
 }
 
 .pansies {
     position: absolute;
     bottom: 40mm;
     right: 950px;
-
+    box-sizing: border-box;
 }
 
 .nightshade {
     position: absolute;
     bottom: 40mm;
     right: 750px;
-
+    box-sizing: border-box;
 }
 
 .lavander {
     position: absolute;
     bottom: 40mm;
     right: 200px;
-
+    box-sizing: border-box;
 }
 
 .logo {
@@ -167,13 +187,21 @@ body {
     bottom: 0mm;
     right: 1100px;
     flex: 50%;
+    box-sizing: border-box;
 }
 
 .morningglories {
     position: absolute;
     bottom: 90mm;
     right: 455px;
+    box-sizing: border-box;
+}
 
+.shit {
+    position: absolute;
+    bottom: 140mm;
+    right: 455px;
+    box-sizing: border-box;
 }
 
 .active {
@@ -181,6 +209,7 @@ body {
     font-size: 150%;
     width: 500px;
     height: 100px;
+    box-sizing: border-box;
 }
 
 .main-container {
@@ -189,6 +218,7 @@ body {
     height: 20vh;
     position: absolute;
     bottom: 0mm;
+    box-sizing: border-box;
 }
 
 .words {
@@ -197,6 +227,7 @@ body {
     align-items: center;
     justify-content: center;
     display: flex;
+    box-sizing: border-box;
 }
 
 
@@ -209,6 +240,7 @@ body {
     align-items: center;
     justify-content: center;
     font-size: xx-large;
+    box-sizing: border-box;
 
 }
 
@@ -222,6 +254,7 @@ body {
     align-items: center;
     justify-content: center;
     font-size: xx-large;
+    box-sizing: border-box;
 }
 
 .questions {
@@ -231,12 +264,14 @@ body {
     justify-content: center;
     align-items: center;
     font-size: x-large;
+    box-sizing: border-box;
 }
 
 .family {
     position: absolute;
     bottom: 90mm;
     right: 70px;
+    box-sizing: border-box;
 }
 
 
@@ -247,22 +282,26 @@ body {
     background: rgb(191, 147, 218);
     height: 50vh;
     gap: 10px;
+    box-sizing: border-box;
 }
 
 a:link {
     color: rgb(0, 0, 0);
     background-color: transparent;
     text-decoration: none;
+    box-sizing: border-box;
 }
 
 a:visited {
     color: rgb(0, 0, 0);
     background-color: transparent;
     text-decoration: none;
+    box-sizing: border-box;
 }
 
 a:hover {
     color: rgb(101, 0, 49);
     background-color: transparent;
     text-decoration: underline;
+    box-sizing: border-box;
 }
