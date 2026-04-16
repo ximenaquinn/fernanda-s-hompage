@@ -45,7 +45,8 @@ html {
     background: #ffa3f0;
     box-sizing: border-box;
     position: absolute;
-    bottom: 120px;
+    bottom: 350px;
+    right: 680px;
 
 }
 
@@ -60,7 +61,10 @@ html {
     padding: 12px;
     margin: 10px;
     box-sizing: border-box;
-    top: 10;
+    position: absolute;
+    bottom: 200px;
+    right: 680px;
+
 }
 
 * {
@@ -199,7 +203,7 @@ indexbackground {
 
 .shit {
     position: absolute;
-    bottom: 140mm;
+    bottom: 136mm;
     right: 455px;
     box-sizing: border-box;
 }
@@ -210,7 +214,17 @@ indexbackground {
     width: 500px;
     height: 100px;
     box-sizing: border-box;
+    position: absolute;
+    bottom: 10mm;
+    right: 700px;
 }
+
+.menu {
+    position: absolute;
+    bottom: 10mm;
+    right: 700px;
+}
+
 
 .main-container {
     background: rgb(4, 92, 73);
