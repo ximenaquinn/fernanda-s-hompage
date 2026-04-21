@@ -179,6 +179,20 @@ indexbackground {
     box-sizing: border-box;
 }
 
+.link {
+    position: absolute;
+    bottom: 50mm;
+    right: 1050px;
+    box-sizing: border-box;
+}
+
+.photoone {
+    position: absolute;
+    bottom: 50mm;
+    right: 900px;
+    box-sizing: border-box;
+}
+
 .lavander {
     position: absolute;
     bottom: 40mm;
