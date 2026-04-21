@@ -117,7 +117,7 @@ body {
     justify-content: space-between;
     height: 50%;
     gap: 10px;
-    justify-items: bottom;
+    justify-items: center;
     box-sizing: border-box;
 }
 
@@ -138,17 +138,20 @@ body {
     right: 1100px;
     flex: 50%;
     box-sizing: border-box;
+    display: flex;
 }
 
 body {
     margin: 1000 px;
     background-image: url('imagesforproject/forest.png');
     box-sizing: border-box;
+    display: flex;
 }
 
 indexbackground {
     margin: 1000 px;
     background-image: url('imagesforproject/flow.png');
+    display: flex;
 }
 
 .violets {
@@ -156,6 +159,7 @@ indexbackground {
     bottom: 40mm;
     right: 600px;
     box-sizing: border-box;
+    display: flex;
 }
 
 .rose {
@@ -163,6 +167,7 @@ indexbackground {
     bottom: 20mm;
     right: 600px;
     box-sizing: border-box;
+    display: flex;
 }
 
 .pansies {
@@ -170,6 +175,7 @@ indexbackground {
     bottom: 40mm;
     right: 950px;
     box-sizing: border-box;
+    display: flex;
 }
 
 .nightshade {
@@ -177,6 +183,7 @@ indexbackground {
     bottom: 40mm;
     right: 750px;
     box-sizing: border-box;
+    display: flex;
 }
 
 .link {
@@ -184,6 +191,7 @@ indexbackground {
     bottom: 50mm;
     right: 1050px;
     box-sizing: border-box;
+    display: flex;
 }
 
 .photoone {
@@ -191,6 +199,7 @@ indexbackground {
     bottom: 20mm;
     right: 880px;
     box-sizing: border-box;
+    display: flex;
 }
 
 .phototwo {
@@ -198,6 +207,7 @@ indexbackground {
     bottom: 90mm;
     right: 510px;
     box-sizing: border-box;
+    display: flex;
 }
 
 .photothree {
@@ -205,13 +215,15 @@ indexbackground {
     bottom: 20mm;
     right: 670px;
     box-sizing: border-box;
+    display: flex;
 }
 
 .photofour {
     position: absolute;
     bottom: 10mm;
-    right: 460px;
+    right: 490px;
     box-sizing: border-box;
+    display: flex;
 }
 
 .epic {
@@ -219,6 +231,7 @@ indexbackground {
     bottom: 90mm;
     right: 405px;
     box-sizing: border-box;
+    display: flex;
 }
 
 .lavander {
@@ -226,6 +239,7 @@ indexbackground {
     bottom: 40mm;
     right: 200px;
     box-sizing: border-box;
+    display: flex;
 }
 
 .logo {
@@ -234,6 +248,7 @@ indexbackground {
     right: 1100px;
     flex: 50%;
     box-sizing: border-box;
+    display: flex;
 }
 
 .morningglories {
@@ -241,6 +256,7 @@ indexbackground {
     bottom: 90mm;
     right: 455px;
     box-sizing: border-box;
+    display: flex;
 }
 
 .shit {
@@ -248,6 +264,7 @@ indexbackground {
     bottom: 136mm;
     right: 455px;
     box-sizing: border-box;
+    display: flex;
 }
 
 .active {
@@ -259,12 +276,14 @@ indexbackground {
     position: absolute;
     bottom: 10mm;
     right: 700px;
+    display: flex;
 }
 
 .menu {
     position: absolute;
     bottom: 10mm;
     right: 700px;
+
 }
 
 
@@ -274,7 +293,7 @@ indexbackground {
     height: 20vh;
     position: absolute;
     bottom: 0mm;
-    box-sizing: border-box;
+    display: flex;
 }
 
 .words {
@@ -284,6 +303,7 @@ indexbackground {
     justify-content: center;
     display: flex;
     box-sizing: border-box;
+    display: flex;
 }
 
 
@@ -297,6 +317,7 @@ indexbackground {
     justify-content: center;
     font-size: xx-large;
     box-sizing: border-box;
+    display: flex;
 
 }
 
@@ -311,6 +332,7 @@ indexbackground {
     justify-content: center;
     font-size: xx-large;
     box-sizing: border-box;
+    display: flex;
 }
 
 .questions {
@@ -321,6 +343,7 @@ indexbackground {
     align-items: center;
     font-size: x-large;
     box-sizing: border-box;
+    display: flex;
 }
 
 .family {
@@ -328,6 +351,7 @@ indexbackground {
     bottom: 90mm;
     right: 70px;
     box-sizing: border-box;
+    display: flex;
 }
 
 
@@ -339,6 +363,7 @@ indexbackground {
     height: 50vh;
     gap: 10px;
     box-sizing: border-box;
+    display: flex;
 }
 
 a:link {
@@ -346,6 +371,7 @@ a:link {
     background-color: transparent;
     text-decoration: none;
     box-sizing: border-box;
+    display: flex;
 }
 
 a:visited {
@@ -353,6 +379,7 @@ a:visited {
     background-color: transparent;
     text-decoration: none;
     box-sizing: border-box;
+    display: flex;
 }
 
 a:hover {
@@ -360,4 +387,5 @@ a:hover {
     background-color: transparent;
     text-decoration: underline;
     box-sizing: border-box;
+    display: flex;
 }
