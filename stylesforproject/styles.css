@@ -188,8 +188,36 @@ indexbackground {
 
 .photoone {
     position: absolute;
-    bottom: 50mm;
-    right: 900px;
+    bottom: 20mm;
+    right: 880px;
+    box-sizing: border-box;
+}
+
+.phototwo {
+    position: absolute;
+    bottom: 90mm;
+    right: 510px;
+    box-sizing: border-box;
+}
+
+.photothree {
+    position: absolute;
+    bottom: 20mm;
+    right: 670px;
+    box-sizing: border-box;
+}
+
+.photofour {
+    position: absolute;
+    bottom: 10mm;
+    right: 460px;
+    box-sizing: border-box;
+}
+
+.epic {
+    position: absolute;
+    bottom: 90mm;
+    right: 405px;
     box-sizing: border-box;
 }
 
