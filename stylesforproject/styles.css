@@ -4,15 +4,6 @@ html {
 }
 
 
-#page-title {
-
-
-    color: rgb(15, 7, 11);
-    font-family: fantasy;
-    font-size: 40px;
-    box-sizing: border-box
-}
-
 .game {
     position: absolute;
     bottom: 10mm;
@@ -50,6 +41,31 @@ html {
 
 }
 
+.flowers {
+    border: 2px solid #64060e;
+    width: 600px;
+    height: 500px;
+    padding: 12px;
+    margin: 10px;
+    color: rgb(171, 3, 112);
+    font-family: fantasy;
+    background: #ffa3f0;
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 10px;
+    right: 570px;
+
+}
+
+.flowerphotos {
+    position: absolute;
+    bottom: 10mm;
+    right: 70px;
+    box-sizing: border-box;
+    display: flex;
+
+}
+
 
 .highlight {
     border: 2px solid rgb(141, 4, 68);
@@ -78,15 +94,15 @@ body {
 
 
 .container1 {
+    width: 100%;
     padding: 10px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     background: rgb(23, 238, 188);
     height: 100vh;
     gap: 10px;
     box-sizing: border-box;
 }
-
 
 .top {
     display: flex;
@@ -98,18 +114,14 @@ body {
     box-sizing: border-box;
 }
 
-
 .top-item {
-    width: 50%;
-    height: 50%;
     background: rgb(251, 114, 191);
     text-decoration-color: rgb(100, 3, 5);
     text-decoration-style: fantasy;
     box-sizing: border-box;
-
-
+    height: 100%;
+    width: 100%;
 }
-
 
 .bottom {
     display: flex;
@@ -121,12 +133,11 @@ body {
     box-sizing: border-box;
 }
 
-
 .bottom-item {
-    width: 50%;
-    height: 50%;
     background: rgb(211, 198, 14);
     box-sizing: border-box;
+    height: 100%;
+    width: 100%;
 }
 
 
@@ -260,11 +271,20 @@ indexbackground {
 }
 
 .shit {
-    position: absolute;
-    bottom: 136mm;
-    right: 455px;
-    box-sizing: border-box;
-    display: flex;
+    text-align: center;
+    width: 100%;
+    color: rgb(0, 0, 0);
+    font-family: fantasy;
+    font-size: 40px;
+}
+
+.crap {
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    color: rgb(0, 0, 0);
+    font-family: fantasy;
+    font-size: 40px;
 }
 
 .active {
