@@ -193,7 +193,6 @@ indexbackground {
     position: absolute;
     bottom: 40mm;
     right: 750px;
-    box-sizing: border-box;
     display: flex;
 }
 
@@ -320,15 +319,22 @@ indexbackground {
     color: rgb(255, 250, 250);
     font-size: x-large;
     align-items: center;
-    justify-content: center;
-    display: flex;
     box-sizing: border-box;
     display: flex;
 }
 
+.container {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    background: rgb(179, 75, 234);
+    height: 100vh;
+    gap: 10px;
+    bottom: 10px;
+}
 
 .left {
-    display: flex;
     height: 100%;
     width: 50%;
     border: 2px solid rgb(141, 3, 40);
@@ -356,14 +362,11 @@ indexbackground {
 }
 
 .questions {
-    position: absolute;
-    bottom: 110mm;
-    right: 450px;
-    justify-content: center;
-    align-items: center;
-    font-size: x-large;
-    box-sizing: border-box;
+    text-align: center;
     display: flex;
+    padding-right: 30px;
+    align-items: flex-start;
+
 }
 
 .family {
@@ -384,6 +387,7 @@ indexbackground {
     gap: 10px;
     box-sizing: border-box;
     display: flex;
+    justify-content: space-between;
 }
 
 a:link {
