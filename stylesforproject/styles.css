@@ -168,7 +168,7 @@ indexbackground {
 .violets {
     position: absolute;
     bottom: 40mm;
-    right: 600px;
+    right: 650px;
     box-sizing: border-box;
     display: flex;
 }
@@ -323,17 +323,6 @@ indexbackground {
     display: flex;
 }
 
-.container {
-    width: 100%;
-    padding: 10px;
-    display: flex;
-    flex-direction: column;
-    background: rgb(179, 75, 234);
-    height: 100vh;
-    gap: 10px;
-    bottom: 10px;
-}
-
 .left {
     height: 100%;
     width: 50%;
@@ -412,4 +401,10 @@ a:hover {
     text-decoration: underline;
     box-sizing: border-box;
     display: flex;
+}
+
+.main-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
