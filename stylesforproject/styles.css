@@ -167,11 +167,14 @@ indexbackground {
 
 .violets {
     position: absolute;
-    bottom: 40mm;
-    right: 650px;
+    bottom: 20mm;
+    right: 400px;
+    padding-left: 7%;
+    padding-right: 7%;
     box-sizing: border-box;
     display: flex;
 }
+
 
 .rose {
     position: absolute;
